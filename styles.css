@@ -2,6 +2,7 @@ body {
     background-color : rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
+    font-weight: bold;
 }
 .image { grid-area: image;} 
 .summary { grid-area: summary; }
@@ -40,12 +41,12 @@ img {
 'dofe explorers'
 ;
     gap: 10px;
-    background-color: #4340f3;
+    background-color: #000000;
     padding: 10px;
 }
 
 .grid-container > div {
-    background-color: #5e91cc;
+    background-color: #88b7ec;
     /* text-align: center; */
     /* padding: 20px 0; */
     /* font-size: 30px; */

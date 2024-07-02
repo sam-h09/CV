@@ -4,6 +4,7 @@ body {
 }
 h1 {
     text-align: center;
+    background-color : rgba(152, 152, 167, 0.211);
 }
 h2 {
     text-decoration: underline;
@@ -16,8 +17,9 @@ h4 {
 h5 {
     text-align: center;
 }
-
-
+h6 {
+    text-align: center;
+}
 div.content {
     margin: 0px 10vw 5vw 10vw;
 }

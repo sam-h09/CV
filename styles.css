@@ -1,5 +1,5 @@
 body {
-    background-color : rgba(153, 153, 233, 0.211);
+    background-color : rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
 }
@@ -20,8 +20,13 @@ body {
 .explorers { grid-area: explorers;}
 
 img {    
-    width:500px 
+    width:500px;
+    border-radius: 50%;
+    display: block;
+    width: 60%;
+    margin: auto;
 }
+
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -29,18 +34,18 @@ img {
 'image beavers'
 'contact-details soft-play'
 'brief-school-details pool'
-'interests-skills school-info'
+'interests-skills gcse-list'
 'interests-skills gcse-list'
 'extra-curricular mandatory-list' 
 'dofe explorers'
 ;
     gap: 10px;
-    background-color: #024F72;
+    background-color: #4340f3;
     padding: 10px;
 }
 
 .grid-container > div {
-    background-color: #b7dcecc0;
+    background-color: #5e91cc;
     /* text-align: center; */
     /* padding: 20px 0; */
     /* font-size: 30px; */

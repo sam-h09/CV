@@ -1,8 +1,56 @@
 body {
-    background-color : rgba(152, 152, 167, 0.211);
+    background-color : rgba(153, 153, 233, 0.211);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
 }
+.image { grid-area: image;} 
+.summary { grid-area: summary; }
+.beavers { grid-area: beavers; }
+.soft-play { grid-area: soft-play; }
+.pool { grid-area: pool; }
+.extra-curricular { grid-area: extra-curricular; }
+.contact-details { grid-area: contact-details;}
+.pool { grid-area: pool;}
+.brief-school-details { grid-area: brief-school-details;}
+.interests-skills { grid-area: interests-skills;}
+.school-info { grid-area: school-info;}
+.gcse-list { grid-area: gcse-list;}
+.mandatory-list { grid-area: mandatory-list;}
+.dofe { grid-area: dofe;}
+.explorers { grid-area: explorers;}
+
+img {    
+    width:500px 
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+'image summary'
+'image beavers'
+'contact-details soft-play'
+'brief-school-details pool'
+'interests-skills school-info'
+'interests-skills gcse-list'
+'extra-curricular mandatory-list' 
+'dofe explorers'
+;
+    gap: 10px;
+    background-color: #024F72;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: #b7dcecc0;
+    /* text-align: center; */
+    /* padding: 20px 0; */
+    /* font-size: 30px; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25vw 52.5vw 25vw 25vw;
+  }
+
 h1 {
     text-align: center;
     font-size: 350%;
@@ -26,5 +74,5 @@ h6 {
     text-decoration: underline;
 }
 div.content {
-    margin: 0px 20vw 10vw 20vw;
+    margin: 0px 10vw 0px 10vw;
 }

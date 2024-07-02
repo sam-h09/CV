@@ -1,5 +1,5 @@
 body {
-    background-color : rgba(207, 207, 222, 0.768);
+    background-color : rgba(152, 152, 167, 0.211);
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -19,6 +19,7 @@ h5 {
 }
 h6 {
     text-align: center;
+    text-decoration: underline;
 }
 div.content {
     margin: 0px 10vw 5vw 10vw;

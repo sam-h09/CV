@@ -2,7 +2,8 @@ body {
     background-color : rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
-    font-weight: bold;
+    font-weight: bolder;
+    
 }
 .image { grid-area: image;} 
 .summary { grid-area: summary; }
@@ -35,10 +36,10 @@ img {
 'image beavers'
 'contact-details soft-play'
 'brief-school-details pool'
-'interests-skills gcse-list'
-'interests-skills gcse-list'
-'extra-curricular mandatory-list' 
-'dofe explorers'
+'interests-skills extra-curricular'
+'interests-skills extra-curricular'
+'gcse-list dofe' 
+'mandatory-list explorers'
 ;
     gap: 10px;
     background-color: #000000;
@@ -46,7 +47,7 @@ img {
 }
 
 .grid-container > div {
-    background-color: #afc8e4;
+    background-color: #93b6f7;
     /* text-align: center; */
     /* padding: 20px 0; */
     /* font-size: 30px; */
@@ -60,7 +61,7 @@ img {
 h1 {
     text-align: center;
     font-size: 350%;
-    background-color : rgba(152, 152, 167, 0.211);
+    background-color : rgba(0, 0, 0, 0.211);
     font-family:Georgia ;
     font-weight: lighter;
 }
@@ -80,5 +81,5 @@ h6 {
     text-decoration: underline;
 }
 div.content {
-    margin: 0px 10vw 0px 10vw;
+    margin: 0vw 10vw 0vw 10vw;
 }

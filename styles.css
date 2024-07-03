@@ -53,6 +53,24 @@ img {
     font-size: 1.05vw;
 }
 
+a.mobile {
+    display: none;
+  }
+a.desktop {
+    display: inline;
+  }
+@media screen and (max-width: 600px) {
+    a.desktop {
+      display: none;
+    }
+    a.mobile {
+        display: inline;
+        margin-left: 5px; /* Adjust the value as needed */
+        margin-right: 5px; /* Adjust the value as needed */
+      }
+  }
+
+
 .grid-container {
     display: grid;
     grid-template-areas:

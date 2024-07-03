@@ -2,8 +2,7 @@ body {
     background-color : rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
-    font-weight: bolder;
-    
+    font-weight: lighter;
 }
 .image { grid-area: image;} 
 .summary { grid-area: summary; }
@@ -11,13 +10,23 @@ body {
 .soft-play { grid-area: soft-play; }
 .pool { grid-area: pool; }
 .extra-curricular { grid-area: extra-curricular; }
-.contact-details { grid-area: contact-details;}
+.contact-details {
+    grid-area: contact-details;
+    display: block;
+    /* width: 50%; */
+}
 .pool { grid-area: pool;}
-.brief-school-details { grid-area: brief-school-details;}
-.interests-skills { grid-area: interests-skills;}
+.brief-school-details {
+    grid-area: brief-school-details;
+    display: block;
+    white-space: nowrap;
+    /* width: 50%; */
+}
+.interests { grid-area: interests;}
+/* .interests-skills { grid-area: interests-skills;} */
 .school-info { grid-area: school-info;}
-.gcse-list { grid-area: gcse-list;}
-.mandatory-list { grid-area: mandatory-list;}
+/* .gcse-list { grid-area: gcse-list;} */
+/* .mandatory-list { grid-area: mandatory-list;} */
 .dofe { grid-area: dofe;}
 .explorers { grid-area: explorers;}
 
@@ -25,29 +34,44 @@ img {
     width:500px;
     border-radius: 50%;
     display: block;
-    width: 60%;
-    margin: auto;
+    width: 50%;
+    margin: 0.5vw;
+}
+
+.padding {
+    padding: 20px;
+}
+.background-blue {
+    background-color: #86b0d3 !important;
+}
+
+.font-size {
+    font-size: 1vw;
 }
 
 .grid-container {
     display: grid;
     grid-template-areas:
-'image summary'
-'image beavers'
-'contact-details soft-play'
-'brief-school-details pool'
-'interests-skills extra-curricular'
-'interests-skills extra-curricular'
-'gcse-list dofe' 
-'mandatory-list explorers'
+'image image summary'
+'image image beavers'
+'contact-details brief-school-details soft-play'
+'interests interests pool'
+'interests interests extra-curricular'
+'interests interests dofe' 
+'interests interests explorers'
 ;
-    gap: 10px;
-    background-color: #000000;
-    padding: 10px;
+    /* gap: 10px; */
+    /* background-color: #0000009f; */
+    /* padding: 10px; */
 }
 
-.grid-container > div {
-    background-color: #819ddb;
+.image {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.grid-container > div  {
+    background-color: #c0cecf;
     /* text-align: center; */
     /* padding: 20px 0; */
     /* font-size: 30px; */
@@ -55,26 +79,30 @@ img {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 25vw 52.5vw 25vw 25vw;
+    grid-template-columns: 15vw 15vw 50vw;
+    /* grid-template-columns: 1fr 2fr; */
   }
 
 h1 {
     text-align: center;
-    font-size: 350%;
-    background-color : rgba(0, 0, 0, 0.211);
-    font-family:Georgia ;
+    /* font-size: 350%; */
+    /* background-color : rgba(0, 0, 0, 0.211); */
     font-weight: lighter;
+    text-decoration: underline;
 }
 h2 {
     text-decoration: underline;
     text-align: center;
+    font-weight: lighter;
 }
 h4 {
     text-align: center;
     text-decoration: underline;
+    font-weight: lighter;
 }
 h5 {
     text-align: center;
+    font-weight: lighter;
 }
 h6 {
     text-align: center;

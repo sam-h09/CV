@@ -63,6 +63,7 @@ img {
 'interests interests extra-curricular'
 'interests interests dofe' 
 'interests interests explorers'
+'interests interests work-experience'
 ;
     /* gap: 10px; */
     /* background-color: #0000009f; */
@@ -95,6 +96,8 @@ img {
 h1 {
     text-align: center;
     /* font-size: 350%; */
+    font-size: 2vw;
+
     /* background-color : rgba(0, 0, 0, 0.211); */
     font-weight: bolder;
     text-decoration: underline;
